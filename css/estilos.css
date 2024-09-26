@@ -42,3 +42,7 @@ main {
     background-color: rgba(220, 20, 60, 0.465);
     width: 20em;
 }
+
+img{
+    width: 100%;
+}
