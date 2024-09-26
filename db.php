@@ -10,7 +10,7 @@ CREATE TABLE IF NOT EXISTS datos(
 
 $conexion = new mysqli("localhost", "root", "contra123", "clase");
 
-$sql = "INSERT INTO clase (nombre,edad) values ('Juan',30),('Pedro',54),('Marcos',74)";
+$sql = "INSERT INTO datos (nombre,edad) values ('Juan',30),('Pedro',54),('Marcos',74)";
 
 $conexion->query($sql);
 $conexion->close();
